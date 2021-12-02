@@ -13,3 +13,8 @@ b = A * xex
 
 
 C=A\b
+
+
+f_error = norm(xex - x) / norm(xex)
+b_error = norm(b - A * x) / (norm(A) * norm(x))
+
